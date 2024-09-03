@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fieldset&legend</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="get">
+        <input type="hidden" name="country" value="br">
+
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label>
+            Primeiro Nome:<br>
+            <input type="text" name="firstname" required placeholder="Nome">
+        </label><br>
+        <label>
+            Sobrenome:<br>
+            <input type="text" name="lastname" minlength="2" placeholder="Sobrenome">
+        </label><br>
+        <label>
+            E-mail:<br>
+            <input type="text" name="email" pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)" title="E-mail" placeholder="E-mail">
+        </label><br>
+        <label>
+            Idade:<br>
+            <input type="number" name="age" required min="18" max="120" placeholder="Idade">
+        </label><br>
+    </fieldset>
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        <label>
+            Nome da Empresa:<br>
+            <input type="text" name="companyname">
+        </label><br>
+        <label>
+            Cargo na Empresa:<br>
+            <input type="text" name="companyjobtitle">
+        </label><br>
+    </fieldset>
+
+        <input type="submit" value="Cadastrar">
+
+    </form>
+</body>
+</html>

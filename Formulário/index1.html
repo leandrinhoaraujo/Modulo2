@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CSS in Form</h1>
+
+    <h2>Area de cadastro</h2>
+
+    <form action="../Link/login.html" method="post">
+        <label>
+            Nome Completo:<br>
+            <input type="text" name="nome">
+        </label>
+
+        <label>
+            Descrição:<br>
+            <textarea name="descricao"></textarea>
+        </label>
+        
+        <label>
+            Categoria:<br>
+            <select name="categoria">
+                <option value="cat1">categoria 1</option>
+                <option value="cat2">categoria 2</option>
+                <option value="cat3">categoria 3</option>
+                <option value="cat4">categoria 4</option>
+            </select>
+        </label>
+        
+        <label>
+            <input type="checkbox">
+            Eu declaro que li e aceito os <a href="#" target="_blank" class="termoslink">termos de uso.</a>
+     </label>
+       
+        <button>Fazer Cadastro</button>
+    </form>
+</body>
+</html>

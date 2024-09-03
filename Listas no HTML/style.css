@@ -1,0 +1,11 @@
+* {
+   box-sizing: border-box; 
+}
+
+body {
+    margin: 50px;
+}
+
+h1 {
+    font-family: 'Chilanka';
+}

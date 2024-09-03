@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #AAA;
+    margin: 10px;
+}
+
+/* .container2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #AAA;
+    margin: 10px;
+} */
+
+.container .div1 {
+    flex: 1;
+    background-color: #DDD;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.container .div2 {
+    flex: 2;
+    background-color: #DDD;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.container .div3 {
+    flex: 2;
+    background-color: #DDD;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.container .div4 {
+    flex: 1;
+    background-color: #DDD;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* .container2 div {
+    background-color: #DDD;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+} */

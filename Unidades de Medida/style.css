@@ -1,0 +1,26 @@
+/* html {
+    font-size: 20px;
+}
+
+body {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.box {
+    font-size: 2rem;
+}
+
+.box-interno {
+    width: 10rem;
+    height: 10rem;
+    background-color: #CCC;
+} */
+
+.box {
+    background-color: #999;
+    height: 100vh;
+}

@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    font-size: 20px;
+}
+
+p {
+    color: blue;
+    font-size: 40px;
+    font-family: 'Jersey 15', Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-shadow: 2px 2px 3px rgb(0, 255, 242);
+}
+
